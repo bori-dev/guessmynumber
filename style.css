@@ -1,0 +1,78 @@
+body {
+    background-image : url("https://i.pinimg.com/736x/11/41/1f/11411f1d5db00f4ae29b390911cb2f7b.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;        
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    height: 95vh;
+    width: 100%;
+}
+
+.indie-flower-regular {
+    font-family: "Indie Flower", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.input-box {
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #00ff00;
+    background: linear-gradient(45deg, #ffff14d0, #ccfd2e);
+    color: #2ab404;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.8), 0 0 20px rgba(255, 0, 255, 0.8);
+    outline: none;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bold {
+    font-weight: 1000;
+    font-size: 35px;
+    color: rgb(4, 165, 201);
+  }
+
+  .style {
+    font-weight: 1000;
+    font-size: 20px;
+    color:rgb(217, 104, 208);
+  }
+  
+  .btn {
+    color: white;
+    font-weight: bold;
+  }
+
+  .btn:hover {
+    color:rgb(55, 57, 184);
+    background-color:rgb(248, 248, 228);
+  }
+
+  @media (max-width: 470px) {
+    .container {
+      padding: 5px;
+    }
+
+    .bold {
+      font-size: 20px;
+    }
+
+    .input-box {
+      width: 50%;
+      height: 50%;
+      font-weight: bold;
+    }
+
+    .style {
+      font-weight: 1000;
+      font-size: 15px;
+      color:rgb(217, 104, 208);
+    }
+  }
