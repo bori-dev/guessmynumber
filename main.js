@@ -26,7 +26,7 @@ function play() {
   }
 
   if(inputList.includes(userInput))  {
-    resultArea.textContent = "You've already guessed this number. 	\n Please guess a different number." 
+    resultArea.innerHTML = "You've already guessed this number.<br> Please guess a different number." 
 
     return; 
   }
