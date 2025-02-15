@@ -63,12 +63,12 @@ function play() {
 function reset() {
   inputValue.value = ''; 
     resultArea.textContent = "Guess My Number!"
-    chanceArea.textContent = "chances: 5"
+    chanceArea.textContent = "chances: 3"
     answerArea.textContent =  정답 : pickRandomNum();
     
     
     pickRandomNum();
-    remainingChances = 5; 
+    remainingChances = 3;
     inputButton.disabled = false; 
     inputList = [];
     
