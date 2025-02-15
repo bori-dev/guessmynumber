@@ -64,13 +64,14 @@ function reset() {
   inputValue.value = ''; 
     resultArea.textContent = "Guess My Number!"
     chanceArea.textContent = "chances: 3"
-    answerArea.textContent =  정답 : pickRandomNum();
+    answerArea.textContent =  "정답 : " + computerNum
     
     
     pickRandomNum();
     remainingChances = 3;
     inputButton.disabled = false; 
     inputList = [];
+  
     
 }
 
