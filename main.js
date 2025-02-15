@@ -88,6 +88,7 @@ function handleInputEvent(event) {
 
  function pickRandomNum() {
   computerNum = Math.floor(Math.random()*100) + 1;
+  answerArea.textContent = `정답: ${computerNum}`; 
   console.log("answer", computerNum)
 }
 
