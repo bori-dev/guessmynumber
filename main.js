@@ -5,7 +5,8 @@ let resetButton = document.getElementById("reset-button")
 let inputValue = document.getElementById("input-value")
 let resultArea = document.getElementById("result-area")
 let chanceArea = document.getElementById("chance-area")
-let remainingChances = 5;  
+let answerArea = document.getElementById("answer-area")
+let remainingChances = 3;
 let gameOver = false; 
 let inputList = [];
 
@@ -63,7 +64,9 @@ function reset() {
   inputValue.value = ''; 
     resultArea.textContent = "Guess My Number!"
     chanceArea.textContent = "chances: 5"
-
+    answerArea.textContent =  정답 : pickRandomNum();
+    
+    
     pickRandomNum();
     remainingChances = 5; 
     inputButton.disabled = false; 
